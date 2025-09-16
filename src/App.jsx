@@ -10,7 +10,7 @@ const App = () => {
   useEffect(() => {
     const fetchProductArray = async () => {
       try {
-        const res = await fetch('http://localhost:5000/products');
+        const res = await fetch('api/products');
         if (!res.ok) throw new Error('Could not fetch products.');
         const data = await res.json();
         setProductArray(data);
