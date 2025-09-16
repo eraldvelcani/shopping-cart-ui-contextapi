@@ -1,0 +1,174 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Kingston KC3000 1TB SSD",
+      "description": "PCIe 4.0 NVMe M.2 1024GB Solid State Drive.",
+      "price": 84.99,
+      "quantity": 43,
+      "category": "Storage",
+      "rating": 4.6,
+      "image": "images/ssd-1.png"
+    },
+    {
+      "id": 2,
+      "name": "Samsung 990 Pro 2TB SSD",
+      "description": "PCIe 4.0 NVMe M.2 2048GB Solid State Drive.",
+      "price": 162.90,
+      "quantity": 57,
+      "category": "Storage",
+      "rating": 4.9,
+      "image": "images/ssd-2.png"
+    },
+    {
+      "id": 3,
+      "name": "be quiet! MC1 SSD Cooler",
+      "description": "Stick-on heat sink for M.2 SSDs.",
+      "price": 12.99,
+      "quantity": 50,
+      "category": "Storage accessories",
+      "rating": 5.0,
+      "image": "images/ssd-cooler.png"
+    },
+    {
+      "id": 4,
+      "name": "G.Skill Flare X5 32GB RAM",
+      "description": "2x16GB, 6000MHz, DDR5, DIMM RAM sticks.",
+      "price": 95.99,
+      "quantity": 35,
+      "category": "Memory",
+      "rating": 4.3,
+      "image": "images/ram-1.png"
+    },
+    {
+      "id": 5,
+      "name": "Corsair Vengeance 64GB RAM",
+      "description": "2 x 32GB, 6600 MHz, DDR5, DIMM RAM sticks.",
+      "price": 277.80,
+      "quantity": 30,
+      "category": "Memory",
+      "rating": 4.8,
+      "image": "images/ram-2.png"
+    },
+    {
+      "id": 6,
+      "name": "Thermalright 120SE CPU Cooler",
+      "description": "Twin-tower CPU cooler with 2x 120mm PWM fans that can reach up to 1550 RPM and six copper heat pipes. Compatible with AMD and Intel CPUs.",
+      "price": 47.49,
+      "quantity": 100,
+      "category": "CPU Coolers",
+      "rating": 4.1,
+      "image": "images/cpu-cooler-1.png"
+    },
+    {
+      "id": 7,
+      "name": "be quiet! Pure Rock 3 CPU Cooler",
+      "description": "Single-tower CPU cooler with a max speed of 2000 RPM. Four powerful 6mm heatpipes with aluminium caps. Compatible with AMD and Intel CPUs.",
+      "price": 30.99,
+      "quantity": 89,
+      "category": "CPU Coolers",
+      "rating": 4.3,
+      "image": "images/cpu-cooler-2.png"
+    },
+    {
+      "id": 8,
+      "name": "MSI A750GL PCIE5 PSU",
+      "description": "Powerful PC power supply designed for demanding applications. Total output of 750 watts, 80 PLUS Gold certification. Voltage range of 100 to 240 V.",
+      "price": 89.99,
+      "quantity": 67,
+      "category": "Power Supply Units",
+      "rating": 4.6,
+      "image": "images/psu-1.png"
+    },
+    {
+      "id": 9,
+      "name": "be quiet! Pure Power 12 M PSU",
+      "description": "Modular ATX 3.0 power supply designed for efficiency, stability, and quiet operation. Total output of 850 watts. Supports PCIe 5.0 GPUs with a 12VHPWR connector. 80 PLUS Gold certification for reliable energy performance.",
+      "price": 134.90,
+      "quantity": 43,
+      "category": "Power Supply Units",
+      "rating": 4.6,
+      "image": "images/psu-2.png"
+    },
+    {
+      "id": 10,
+      "name": "Fractal Meshify C Solid Case",
+      "description": "Compact, high-airflow mid-tower PC case. Solid side panel edition. Supports ATX/mATX/ITX motherboards, allows for large GPUs and tall CPU coolers, includes multiple fan/radiator mounting points, and offers good cable management with a PSU shroud and dust filters.",
+      "price": 109.99,
+      "quantity": 70,
+      "category": "PC Cases",
+      "rating": 4.8,
+      "image": "images/case-gaming.png"
+    },
+    {
+      "id": 11,
+      "name": "Fractal Define R5 Case",
+      "description": "Mid-tower case with solid sound-dampening panels, a minimal front façade, and plenty of space for cable management and storage. Supports ATX/mATX motherboards and provides a clean, professional look that blends well into an office environment.",
+      "price": 107.89,
+      "quantity": 55,
+      "category": "Motherboards",
+      "rating": 4.7,
+      "image": "images/case-office.png"
+    },
+    {
+      "id": 12,
+      "name": "MSI PRO B650M-P Motherboard",
+      "description": "Micro-ATX - Supports AMD Ryzen 7000 Series Processors, AM5 - DDR5 Memory Boost 6000+MHz/OC, 1 x PCIe 4.0 x16, 2 x M.2 Gen4, 2.5G LAN.",
+      "price": 89.00,
+      "quantity": 120,
+      "category": "Motherboards",
+      "rating": 4.5,
+      "image": "images/mainboard-1.png"
+    },
+    {
+      "id": 13,
+      "name": "ASUS PRIME B550M-A Motherboard",
+      "description": "AMD B550 (Ryzen AM4) micro ATX Motherboard. Dual M.2, PCIe 4.0, Wi-Fi 6, 1 Gb Ethernet, HDMI, DVI-D, D-Sub, SATA 6 Gbps, USB 3.2 Gen 2 Type-A and Aura Sync RGB Lighting.",
+      "price": 98.90,
+      "quantity": 98,
+      "category": "Motherboards",
+      "rating": 4.4,
+      "image": "images/mainboard-2.png"
+    },
+    {
+      "id": 14,
+      "name": "NVIDIA GeForce RTX 4070 Ti Graphics Card",
+      "description": "The NVIDIA GeForce RTX 4070 Ti is built on the Ada Lovelace architecture, featuring 7,680 CUDA cores, 12GB of GDDR6X memory on a 192-bit bus, and boost clocks up to ~2.6 GHz. It supports DLSS 3 frame generation, real-time ray tracing, and delivers high-end performance with a typical board power of around 285W.",
+      "price": 1209.99,
+      "quantity": 32,
+      "category": "Discrete GPUs",
+      "rating": 4.4,
+      "image": "images/4070-ti.png"
+    },
+    {
+      "id": 15,
+      "name": "AMD Radeon RX 7900 XT",
+      "description": "AMD B550 (Ryzen AM4) micro ATX Motherboard. Dual M.2, PCIe 4.0, Wi-Fi 6, 1 Gb Ethernet, HDMI, DVI-D, D-Sub, SATA 6 Gbps, USB 3.2 Gen 2 Type-A and Aura Sync RGB Lighting.",
+      "price": 1068.25,
+      "quantity": 67,
+      "category": "Discrete GPUs",
+      "rating": 4.3,
+      "image": "images/7900-xt.png"
+    },
+    {
+      "id": 16,
+      "name": "Intel Core i7-13700K",
+      "description": "Features 16 cores (8 Performance + 8 Efficient) and 24 threads, with boost clocks up to 5.4 GHz and support for DDR4/DDR5 memory. Built on Intel’s Raptor Lake architecture, it offers excellent single-threaded performance and high multicore throughput for gaming and content creation.",
+      "price": 340.00,
+      "quantity": 90,
+      "category": "CPUs",
+      "rating": 4.9,
+      "image": "images/intel-i7.png"
+    },
+    {
+      "id": 17,
+      "name": "AMD Ryzen 5 7600",
+      "description": "6-core, 12-thread CPU based on the Zen 4 architecture, with boost clocks up to 5.1 GHz and support for DDR5 and PCIe 5.0. With a 65W TDP and efficient integrated RDNA 2 graphics, it delivers smooth office performance while remaining cool and power-efficient.",
+      "price": 199.90,
+      "quantity": 85,
+      "category": "CPUs",
+      "rating": 4.3,
+      "image": "images/ryzen-5.png"
+    }
+  ]
+}
