@@ -13,9 +13,15 @@ export function CartProvider({children}) {
             return [...prev, {...product, qty: 1}]; //return previous array + the new object with qty of 1
         })
     }
- 
+
+    const removeFromCart = (id) => {
+        setCart((prev) => prev.filter((item) => item.id !== id))
+    }
+
+    const nukeCart = () => setCart([]);
+
     return (
-        <CartContext.Provider value={{cart, addToCart}}>
+        <CartContext.Provider value={{cart, addToCart, removeFromCart, nukeCart}}>
             {children}
         </CartContext.Provider>
     )
