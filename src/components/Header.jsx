@@ -29,14 +29,14 @@ const Header = () => {
                 </button>
                 
                 {dropDownVisible && (
-                    <div className="absolute right-0 mt-2 w-80 bg-white border rounded shadow-lg z-50">
+                    <div className="absolute right-0 mt-2 w-80 bg-black border border-yellow-400 rounded shadow-lg z-50">
                         <div className="p-4">
-                            <h2 className='font-semibold text-lg mb-2'>Your Cart</h2>
+                            <h2 className='font-semibold text-lg mb-2 text-yellow-300'>Your Cart</h2>
                             {cart.length === 0 ? (
-                                <p className="text-gray-500 text-sm">No items...</p>
+                                <p className="text-yellow-500 text-sm">No items...</p>
                             ) : (
                             <>
-                                <ul className='max-h-60 overflow-y-auto divide-y divide-gray-200'>
+                                <ul className='max-h-60 overflow-y-auto divide-y divide-yellow-600'>
                                     {cart.map((item) => (
                                         // <li key={item.id}>
                                         //     <div className="flex justify-between items-center py-2">
@@ -45,21 +45,21 @@ const Header = () => {
                                         //     </div>
                                         // </li>
                                         <li key={item.id} className="flex justify-between items-center py-2">
-                                            <div>
-                                                <p className='font-semibold'>{item.name}</p>
-                                                <p className='text-base'>{item.qty} × €{item.price}</p>
+                                            <div className='flex-1 min-w-0'>
+                                                <p className='font-semibold break-words text-yellow-400'>{item.name}</p>
+                                                <p className='text-base text-yellow-600'>{item.qty} × €{item.price}</p>
                                             </div>
-                                            <button className='flex items-center justify-center w-5 h-5 text-white bg-red-500 rounded-full cursor-pointer hover:bg-red-700' onClick={() => removeFromCart(item.id)}>
+                                            <button className='flex items-center justify-center w-5 h-5 ml-2 mr-2 text-black bg-yellow-500 rounded-full cursor-pointer hover:bg-yellow-700' onClick={() => removeFromCart(item.id)}>
                                                 <FaTimes className='text-xs' />
                                             </button>
                                         </li>
                                     ))}
                                 </ul>
-                                <div className='mt-4 flex justify-between font-semibold'>
+                                <div className='mt-4 flex justify-between font-semibold text-yellow-300'>
                                     <span>Total:</span>
                                     <span>€{total}</span>
                                 </div>
-                                <button className='mt-3 w-full bg-red-500 text-white py-1 rounded transition hover:bg-red-600 cursor-pointer' onClick={nukeCart}>Clear Cart</button>
+                                <button className='mt-3 w-full bg-yellow-500 text-black font-bold py-1 rounded transition hover:bg-yellow-700 cursor-pointer' onClick={nukeCart}>Clear Cart</button>
                             </>
                             )}
                         </div>
